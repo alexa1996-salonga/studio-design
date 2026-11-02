@@ -35,7 +35,7 @@
   margin: 0;
   padding: 0;
   display: flex;
-  gap: 30px;
+  gap: 5rem;
 }
 
 .nav-list > li {
@@ -50,6 +50,12 @@
   letter-spacing: 0.5px;
   display: inline-block;
   padding: 5px 0;
+  transition: color .3s ease;
+
+}
+
+.nav-list a:hover {
+  color: #fafafa;
 }
 
 .dropdown-content {
@@ -86,7 +92,8 @@
 }
 
 .dropdown-content a:hover {
-    background-color: #f1f8f9;
+    color: #fafafa;
+    background-color: #174468;
 }
 
 /* Keeps it open while hovering over the link or menu */

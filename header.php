@@ -22,14 +22,15 @@
     <nav class="navbar">
         <ul class="nav-list">
         <li><a href="about.php">About</a></li>
-        <li><a href="locations.php">Maps</a></li>        <li class="dropdown">
+        <li><a href="locations.php">Maps</a></li>
+        <li class="dropdown">
             <a href="#" class="dropbtn" aria-haspopup="true">Stations</a>
             <ul class="dropdown-content">
             <li><a href="stations.php">8th</a></li>
             <li><a href="3rdstation.php">3rd</a></li>
             <li><a href="cityhall.php">City Hall</a></li>
-            </ul></li>
-
+            </ul>
+        </li>
         <li><a href="fun facts.php">Fun Facts</a></li>
         <li><a href="faq.php">FAQ</a></li>
         <li><a href="game.php">Game</a></li>
