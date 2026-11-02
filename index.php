@@ -8,7 +8,7 @@
   </div>
 
   <div>
-    <h1>Calgary's +15 Skywalk</h1>
+    <h1>Calgary's Whatever</h1>
     <p>World's most extensive indoor pedestrian skywalk network</p>
     <p>The Calgary Plus 15 is a massive indoor bridging system running throughout the heart of downtown. Named for being situated exactly 15 feet above street level, this architectural network features 86 climate-controlled bridges that connect office towers, shopping centres, food courts, and public transit. <br>
     Built to shield citizens from Calgary's harsh winter weather, it provides an accessible, vibrant indoor ecosystem far away from the bustling traffic below. Whether you are a daily commuter, a tourist, or a local exploring downtown, this website is your ultimate guide to navigating Calgary's historic "hidden gem."</p>
