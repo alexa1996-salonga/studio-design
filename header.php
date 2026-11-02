@@ -6,7 +6,7 @@
     <title>Skyscrape</title>
     <meta name="description" content="Calgary's +15 Skywalk Campaign">
     <!--<link rel="icon" href="favicon.svg" type="image/svg+xml">-->
-    
+
     <link rel="stylesheet" href="./nav-style.css">
     <link rel="stylesheet" href="./page-style.css">
 </head>
@@ -24,7 +24,7 @@
         <li><a href="about.php">About</a></li>
         <li><a href="#">Maps</a></li>
         <li class="dropdown">
-            <a href="#" class="dropbtn">Stations</a>
+            <a href="#" class="dropbtn" aria-haspopup="true">Stations</a>
             <ul class="dropdown-content">
             <li><a href="stations.php">8th</a></li>
             <li><a href="3rdstation.php">3rd</a></li>
