@@ -1,7 +1,5 @@
-<?php
-        $pageTitle="Nav";
-        require("header.php");
-?>
+<?php require("header.php"); ?> 
+
 
 <main>
     <h1>8th Street Station</h1>
@@ -32,3 +30,5 @@
 
 
 </main>
+
+<?php require("footer.php"); ?>

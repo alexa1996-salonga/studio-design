@@ -1,4 +1,3 @@
-<?php
-        $pageTitle="Nav";
-        require("header.php");
-?>
+<?php require("header.php"); ?> 
+
+<?php require("footer.php"); ?>
