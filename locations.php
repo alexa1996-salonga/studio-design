@@ -1,6 +1,7 @@
 <?php require("header.php"); ?>
   
 <!--Plus 15 map-->
+<main>
   <section>
   <div>
      <img src="https://placehold.co/600x400" alt="Placeholder image">
@@ -30,9 +31,12 @@
         <div>
         <p>Along the the Calgary C-train route in downtown, there is a free fare zone. This zone typically stretches 2.5 kilometers from 7th avenue to City Hall station. The free fare zone allows citizens to travel along those stations without needing to pay any fees to ride on board the train.  However, this only applies to those starting and ending within said stations.</p>
         </div>
+      </section>
+</main>
 
 <!--Stations-->
-        <div class="stations-section">
+
+        <section class="stations-section">
         <h2 class="section-title">Stations to Explore</h2>
         
         <div class="stations-grid">
