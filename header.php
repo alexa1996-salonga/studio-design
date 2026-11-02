@@ -22,6 +22,13 @@
     <nav class="navbar">
         <ul class="nav-list">
         <li><a href="about.php">About</a></li>
+        <li><a href="#">Maps</a></li>
+        <li class="dropdown">
+            <a href="#" class="dropbtn">Stations</a>
+            <ul class="dropdown-content">
+            <li><a href="stations.php">8th</a></li>
+            <li><a href="3rdstation.php">3rd</a></li>
+            <li><a href="cityhall.php">City Hall</a></li>
         <li><a href="locations.php">Maps</a></li>
         <li class="dropdown">
             <a href="#" class="dropbtn">Stations</a>
