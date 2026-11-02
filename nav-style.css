@@ -100,7 +100,6 @@
     width: 100%;
     background-color: #f5f2ec;
     border-top: 1px solid #e5e1da;
-    padding: 30px 0;
 }
 
 .footer-inner {
@@ -108,7 +107,6 @@
     max-width: 1800px;
     min-height: 120px;
     margin: 0 auto;
-    padding: 0 10%;
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

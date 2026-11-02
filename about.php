@@ -2,12 +2,12 @@
 
 
 <main>
-        <h1>THE HISTORY OF CALGARY’S +15 SKYWALK</h1>
-        <h2>TAKE A WALK THROUGH THIS PAGE TO LEARN MORE BOUT THE +15</h2>
+        <h1>The History of Calgary’s +15 Skywalk</h1>
+        <p>Take a walk through this page to learn more about the +15 Skywalk</p>
         
-                <div>
-                        <h3>What is the +15 Skywalk?</h3>
-                        <p>The Calgary +15 skywalk is a bridging system that runs throughout downtown Calgary connecting most buildings to one another for easy access. It allows for easy accessibility for all ages and abilities, connecting people throughout certain buildings in downtown whether it be food courts, shopping centres, public art, or even office and work related buildings. The skywalk comprises 86 bridge connections that are situated 15 feet above the street levels, hence the name “+15”.</p>
+        <div>
+                <h2>What is the +15 Skywalk?</h2>
+                <p>The Calgary +15 skywalk is a bridging system that runs throughout downtown Calgary connecting most buildings to one another for easy access. It allows for easy accessibility for all ages and abilities, connecting people throughout certain buildings in downtown whether it be food courts, shopping centres, public art, or even office and work related buildings. The skywalk comprises 86 bridge connections that are situated 15 feet above the street levels, hence the name “+15”.</p>
         
                 <img src="https://placehold.co/600x400" alt="Placeholder image">
         
