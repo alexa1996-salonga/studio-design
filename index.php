@@ -48,7 +48,7 @@
 
 <!--Quote that changes every refresh-->
      <section>
-        <p>"Quote"</p>
+        <p>A city above a city, where the streets are made of light and the sky is just an arm's length away.</p>
      </section>
 
 <!--Operating Hours-->
