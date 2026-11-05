@@ -1,4 +1,5 @@
 <?php require("header.php"); ?>
+  <link rel="stylesheet" href="Fonts.css">
   
 <!--Plus 15 map-->
 <main>

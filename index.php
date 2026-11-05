@@ -1,5 +1,6 @@
 <?php require("header.php"); ?> 
-
+  <link rel="stylesheet" href="Fonts.css">
+  
 <main>
 <!--Photo and Intro-->
   <section>

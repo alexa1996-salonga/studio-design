@@ -1,4 +1,5 @@
 <?php require("header.php"); ?> 
+  <link rel="stylesheet" href="Fonts.css">
 
 <section class="faq-section">
   <h2 class="faq-title">Frequently Asked Questions</h2>

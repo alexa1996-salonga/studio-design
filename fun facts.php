@@ -1,5 +1,6 @@
 <?php require("header.php"); ?>
-
+  <link rel="stylesheet" href="Fonts.css">
+  
 <!--Skybridge photo from outside-->
   <section>
   <div>

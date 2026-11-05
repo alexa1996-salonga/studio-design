@@ -1,5 +1,5 @@
 <?php require("header.php"); ?> 
-
+        <link rel="stylesheet" href="Fonts.css">
 
 <main>
         <h1>The History of Calgary’s +15 Skywalk</h1>
