@@ -19,7 +19,7 @@
         <img src="https://placehold.co/600x400" alt="Placeholder image">
         <h3>Aquitaine Tower </h3>
         <p>A sculpture called “Moonstairs” by Jacacqueline Badord placed outside at the northeast corner of the deck. They are made up of 800 aluminum modules with a 7m high cast in Paris and assembled in Calgary by Badord’s husband Oliver Deschamps and son Dominique. The artist expressed this sculpture as a design to occupy space, with the interpretation left to the imagination of the observer.</p>
-        <p><strong>*Note</strong>: there is an entrance with no door knob, be careful to see the right entrance and exit. Bring a friend.</p>
+        <p><strong>*Note: there is an entrance with no door knob, be careful to see the right entrance and exit. Bring a friend.</strong></p>
         
     </section>
 
