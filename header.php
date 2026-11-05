@@ -16,9 +16,11 @@
     <header class="site-header">
     <div class="logo-container">
         <a href="index.php" class="logo-link">
-            <img src="./images/nav_logo.png" alt="Sky Scrape Logo" class="site-logo">
+            <img src="./images/Dark_Horizontal_Logo.png" alt="Sky Scrape Logo" class="site-logo">
         </a>
+        <button class="Hamburg-button">&#9776;</button>
     </div>
+
 
     <nav class="navbar">
         <ul class="nav-list">
@@ -36,5 +38,7 @@
         <li><a href="faq.php">FAQ</a></li>
         <li><a href="game.php">Game</a></li>
         </ul>
+
+        
     </nav>
     </header>

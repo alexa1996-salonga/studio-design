@@ -48,7 +48,7 @@
         <div class="image-wrapper">
            <img src="https://placehold.co/600x400" alt="8th SW Skywalk Bridge">
         </div>
-        <button>8th SW</button>
+        <a href="stations.php" class="a_button_style">8th SW</a>
         </div>
 
         <!-- Card 2 -->
@@ -56,7 +56,7 @@
         <div class="image-wrapper">
              <img src="https://placehold.co/600x400" alt="3rd SW Skywalk Bridge">
         </div>
-        <button>3rd SW</button>
+        <a href="3rdstation.php" class="a_button_style">3rd SW</a>
         </div>
 
         <!-- Card 3 -->
@@ -64,7 +64,7 @@
         <div class="image-wrapper">
               <img src="https://placehold.co/600x400" alt="City Hall Skywalk Bridge">
         </div>
-        <button>City Hall</button>
+        <a href="cityhall.php" class="a_button_style">City Hall</a>
         </div>
         </div>
         </section>

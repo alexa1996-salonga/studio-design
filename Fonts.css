@@ -1,7 +1,7 @@
 @import url("https://use.typekit.net/nlh2ctq.css");
 
 
-p, ul.fun-facts-fonts, ul.locations-fonts {
+p, ul.fun-facts-fonts, ul.locations-fonts, a.a_button_style {
     font-family: "futura-100-book", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -13,7 +13,7 @@ font-weight: 500;
 font-style: normal;
 }
 
-ul.nav-list li {
+ul.nav-list li, div.footer-link-group a {
 font-family: "ethnocentric", sans-serif;
 font-weight: 400;
 font-style: normal;
