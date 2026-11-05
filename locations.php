@@ -9,10 +9,12 @@
   </div>
   </section>
 
+    <h1>Operating Hours</h1>
+
 <!--Complete Operating Hours-->
     <section>
         <h2>Plus 15 Network Hours:</h2>
-        <ul>
+        <ul class="locations-fonts">
           <li>Weekdays: 6 AM - 10 PM</li>
           <li>Weekends & Statutory Holidays: 9 AM - 7 PM</li>
           <li>Access to the Plus 15 Network will be closed on December 25 (Christmas Day)</li>

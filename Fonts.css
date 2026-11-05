@@ -1,9 +1,20 @@
 @import url("https://use.typekit.net/nlh2ctq.css");
 
 
-
-p {
+p, ul.fun-facts-fonts, ul.locations-fonts {
     font-family: "futura-100-book", sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+
+main h1, h2, h3 {
+    font-family: "magistral", sans-serif;
+font-weight: 500;
+font-style: normal;
+}
+
+ul.nav-list li {
+font-family: "ethnocentric", sans-serif;
+font-weight: 400;
+font-style: normal;
 }

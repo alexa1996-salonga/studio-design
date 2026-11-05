@@ -1,6 +1,6 @@
 <?php require("header.php"); ?> 
-    <link rel="stylesheet" href="Fonts.css">
     
+
     <main>
         <h1>3rd Street Station</h1>
 

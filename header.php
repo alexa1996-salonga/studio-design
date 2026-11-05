@@ -9,6 +9,7 @@
 
     <link rel="stylesheet" href="./nav-style.css">
     <link rel="stylesheet" href="./page-style.css">
+    <link rel="stylesheet" href="Fonts.css">
 </head>
 
 <body>

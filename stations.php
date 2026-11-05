@@ -1,5 +1,4 @@
 <?php require("header.php"); ?> 
-    <link rel="stylesheet" href="Fonts.css">
 
 <main>
     <h1>8th Street Station</h1>
