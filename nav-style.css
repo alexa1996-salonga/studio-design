@@ -1,4 +1,4 @@
- @import url("https://use.typekit.net/tvs7byl.css");
+ @import url("https://use.typekit.net/nlh2ctq.css");
 
 * {
     box-sizing: border-box;
@@ -7,7 +7,7 @@
 }
 /*Navigation*/
 .site-header {
-  font-family: "ethnocentric", sans-serif;
+
   width: 100%;
 }
 
@@ -58,6 +58,12 @@
 
 .nav-list a:hover {
   color: #fafafa;
+}
+
+ul li {
+        font-family: "ethnocentric", sans-serif;
+font-weight: 400;
+font-style: normal;
 }
 
 .dropdown-content {
