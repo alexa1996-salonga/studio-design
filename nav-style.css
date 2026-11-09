@@ -181,10 +181,20 @@ a.a_button_style {
         justify-content: right;
     }
 
+    button.Hamburg-button.menuActive {
+        color: #5bc5d5;
+    }
+
     .navbar{
         display: none;
     }
+
+    .navbar.navOn {
+        display: block;
+    }
+
 }
+
 
 
 

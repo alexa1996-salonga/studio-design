@@ -27,5 +27,6 @@
     </div>
 </footer>
 
+<script src="hamburger.js"></script>
 </body>
 </html>
