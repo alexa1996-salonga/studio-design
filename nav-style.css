@@ -68,6 +68,16 @@ button.Hamburg-button {
 }
 
 
+/* IMAGES */
+img {
+    max-width: 100%;
+
+}
+
+
+
+
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -187,10 +197,11 @@ a.a_button_style {
 
     .navbar{
         display: none;
+        
     }
 
     .navbar.navOn {
-        display: block;
+        display: block; 
     }
 
 }

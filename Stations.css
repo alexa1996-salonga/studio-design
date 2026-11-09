@@ -1,0 +1,15 @@
+main div.color-box {
+    background-color: #161a31;
+    margin: 0.5rem;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+h2, h3, p{
+    color: #f4f0e9;
+    margin: 0.5rem 0;
+}
+
+p {
+    margin: 0.5rem 0 3rem 0;
+}
