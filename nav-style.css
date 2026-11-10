@@ -22,6 +22,7 @@
   scale: 120%;
   max-height: 100px;
   display: inline-block;
+  margin: 0.5rem;
 }
 
 .navbar {
@@ -59,6 +60,19 @@
   color: #fafafa;
 }
 
+
+h1, p.para-center {
+    margin: 0.5rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+p.para-center {
+    padding: 0rem 1rem 1rem 1rem;
+    font-size: 1.2rem;
+}
+
+
 /* HAMBURGER BUTTON */
 button.Hamburg-button {
     font-size: 2rem;
@@ -71,7 +85,6 @@ button.Hamburg-button {
 /* IMAGES */
 img {
     max-width: 100%;
-
 }
 
 
@@ -184,6 +197,27 @@ a.a_button_style {
 }
 
 
+/* DARK BLUE BOX */
+
+main {
+    margin: 1rem;
+} 
+
+main div.color-box {
+    background-color: #161a31;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
 /* Hamburger menu for Tablet and Mobile */
 @media (max-width: 971px) {
     button.Hamburg-button {
@@ -228,5 +262,40 @@ a.a_button_style {
 
     .footer-link-group a {
         font-size: 18px;
+    }
+
+}
+
+
+/* USING MIN WIDTH */
+@media (min-width: 768px) {
+    main div.color-box section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    h3 {
+        margin: 2rem 0.5rem 0.5rem 0.5rem;
+    }
+
+}
+
+@media (min-width: 971px) {
+    main  {
+        margin: 0 3rem 1.5rem 3rem;
+    }
+}
+
+@media (min-width: 1100px) {
+    main  {
+        margin: 0 6rem 1.5rem 6rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    main  {
+        margin: 0 9rem 1.5rem 9rem;
+        padding: 2rem 6rem;
     }
 }

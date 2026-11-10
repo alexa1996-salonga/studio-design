@@ -1,8 +1,8 @@
 <?php require("header.php"); ?> 
   <link rel="stylesheet" href="Fonts.css">
 
-<section class="faq-section">
-  <h2 class="faq-title">Frequently Asked Questions</h2>
+<main class="faq-section">
+  <h1 class="faq-title">Frequently Asked Questions</h1>
   
   <div class="faq-container">
     
@@ -63,6 +63,6 @@
     </details>
 
   </div>
-</section>
+</main>
 
 <?php require("footer.php"); ?>
