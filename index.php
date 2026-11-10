@@ -54,7 +54,7 @@
 
 <!--Operating Hours-->
 
-     <section>
+     <section class="index-last-font">
         <h2>Plus 15 Network Hours:</h2>
         <ul>
           <li>Weekdays: 6 AM - 10 PM</li>

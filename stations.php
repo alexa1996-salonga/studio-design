@@ -31,7 +31,7 @@
         </section>
         <section>
             <div>
-                <img src="images/Chevron.webp" alt="Photograph of Little Free Library with two box stands full of books on display">
+                <img src="images/Chevron.webp" alt="Photograph of Little Free Library with two box stands full of books on display" >
             </div>
 
             <div>

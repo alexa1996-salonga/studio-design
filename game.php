@@ -1,6 +1,6 @@
 <?php require("header.php"); ?> 
 
-<section>
+<main>
     <div>
         <video src="https://placehold.co/600x400" autoplay muted loop></video>
     </div>
@@ -11,6 +11,6 @@
 
         <a href="" class="a_button_style">Begin the Hunt</a>
     </div>
-</section>
+</main>
 
 <?php require("footer.php"); ?>
