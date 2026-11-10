@@ -186,14 +186,21 @@ img {
     color: #4a779d;
 }
 
-/* LOCATIONS */
+/* BUTTON STYLES */
 a.a_button_style {
+    display: block;
     cursor: pointer;
     background-color: #11182f;
     color: #f4f0e9;
     text-decoration: none;
     border-radius: 10px;
+    margin: 1rem;
     padding: 0.5rem 1rem;
+    text-align: center;
+}
+
+a.a_button_style:hover {
+    background-color: #174468;
 }
 
 
@@ -269,7 +276,7 @@ main div.color-box {
 
 /* USING MIN WIDTH */
 @media (min-width: 768px) {
-    main div.color-box section {
+    main div.color-box  {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 1rem;

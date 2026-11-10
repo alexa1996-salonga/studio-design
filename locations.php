@@ -1,5 +1,6 @@
 <?php require("header.php"); ?>
   <link rel="stylesheet" href="Fonts.css">
+  <link rel="stylesheet" href="cardstations.css">
   
 <!--Plus 15 map-->
 <main>
@@ -35,38 +36,35 @@
         <p>Along the the Calgary C-train route in downtown, there is a free fare zone. This zone typically stretches 2.5 kilometers from 7th avenue to City Hall station. The free fare zone allows citizens to travel along those stations without needing to pay any fees to ride on board the train.  However, this only applies to those starting and ending within said stations.</p>
         </div>
       </section>
-</main>
+
 
 <!--Stations-->
 
-        <section class="stations-section">
-        <h2 class="section-title">Stations to Explore</h2>
+        <section>
+        <h2>Stations to Explore</h2>
         
-        <div class="stations-grid">
+
         <!-- Card 1 -->
-        <div class="station-card">
-        <div class="image-wrapper">
-           <img src="https://placehold.co/600x400" alt="8th SW Skywalk Bridge">
+        <div class="stations-card">
+          <img src="https://placehold.co/600x400" alt="8th SW Skywalk Bridge">
+          <a href="stations.php" class="a_button_style">8th SW</a>
         </div>
-        <a href="stations.php" class="a_button_style">8th SW</a>
-        </div>
+
 
         <!-- Card 2 -->
-        <div class="station-card">
-        <div class="image-wrapper">
-             <img src="https://placehold.co/600x400" alt="3rd SW Skywalk Bridge">
+        <div class="stations-card">
+          <img src="https://placehold.co/600x400" alt="3rd SW Skywalk Bridge">
+          <a href="3rdstation.php" class="a_button_style">3rd SW</a>
         </div>
-        <a href="3rdstation.php" class="a_button_style">3rd SW</a>
-        </div>
+
 
         <!-- Card 3 -->
-        <div class="station-card">
-        <div class="image-wrapper">
-              <img src="https://placehold.co/600x400" alt="City Hall Skywalk Bridge">
+        <div class="stations-card">
+          <img src="https://placehold.co/600x400" alt="City Hall Skywalk Bridge">
+          <a href="cityhall.php" class="a_button_style">City Hall</a>
         </div>
-        <a href="cityhall.php" class="a_button_style">City Hall</a>
-        </div>
-        </div>
-        </section>
 
+
+        </section>
+</main>
 <?php require("footer.php"); ?>
