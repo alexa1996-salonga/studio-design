@@ -6,7 +6,7 @@
     padding: 0;
 }
  h1, h2, h3 {
-    font-family: "magistral", sans-serif;
+font-family: "magistral", sans-serif;
 font-weight: 500;
 font-style: normal;
 }
@@ -29,7 +29,7 @@ div.video-header {
 .video-header {
   position: relative;
   width: 100%;
-  height: 85vh; /* Adjust this height (e.g., 60vh, 80vh, or 500px) to taste */
+  height: 85vh; 
   overflow: hidden;
   display: block;
 }
@@ -37,7 +37,7 @@ div.video-header {
 .video-header video {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Changed from 'contain' so it fills the whole frame */
+  object-fit: cover; 
   object-position: center;
   display: block;
 }
@@ -47,37 +47,36 @@ section.intro-section {
   padding: 2.5rem 5rem 2.5rem 5rem;
   border-radius: 4px;
   
-  display: flex;              /* Forces side-by-side layout */
-  flex-direction: row;        /* Left to right */
+  display: flex;              
+  flex-direction: row;      
   align-items: flex-start;
-  gap: 2.5rem;                /* Space between photo and text */
+  gap: 2.5rem;                
 }
 
-/* Left Side: Photo */
 .intro-image {
-  flex: 1;                    /* Takes up 1 part of the width */
+  flex: 1;                   
   display: flex;
   justify-content: center;
 }
 .intro-image img {
   width: 100%;
-  max-width: 350px;           /* Adjust this to make the photo bigger or smaller */
+  max-width: 350px;           
   height: auto;
   display: block;
 }
 
 /* Right Side: Text */
 .intro-text {
-  flex: 1.2;                  /* Gives the text slightly more width than the photo */
+  flex: 1.2;                  
   text-align: center;
 }
 
 .intro-text h1 {
   font-size: 2rem;
-  margin-top: 0;              /* Removes default space above the h1 */
-  padding-top: 0;             /* Overrides any earlier h1 padding */
+  margin-top: 0;             
+  padding-top: 0;           
   margin-bottom: 0;
-  line-height: 1;             /* Tightens the top gap of the font so it matches the image top */
+  line-height: 1;             
   text-transform: uppercase;
 
 }
@@ -92,4 +91,58 @@ section.intro-section {
   font-size: 0.85rem;
   line-height: 1.6;
   margin-bottom: 1rem;
+}
+
+/* Centered Uppercase Section Title */
+h2.station-title {
+  text-align: center;
+  text-transform: uppercase;
+  color: #161a31;
+  margin: 3rem 0 2rem 0;
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+
+/* 3-Column Grid for the Cards */
+.stations-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.station-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Forces Every Image into a Clean Square */
+.image-wrapper {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.station-card:hover .image-wrapper img {
+  transform: scale(1.25);
+}
+
+/* Keeps Your Existing Blue Button Style & Aligns Its Spacing */
+.station-card a.a_button_style {
+  width: 100%;             /* Matches the width of the square photo above it */
+  margin: 1rem 0 0 0;      /* Removes left/right margin so it lines up with the image edges */
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.5px;
 }
