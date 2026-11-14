@@ -1,4 +1,18 @@
-<?php require("header.php"); ?>
+<?php require("header.php");
+
+  $skywalk_quotes = [
+      "A city above a city, where the streets are made of light and the sky is just an arm's length away.",
+      "Sixteen kilometres of glass and steel, keeping Calgary connected through every season.",
+      "Fifteen feet above the bustle, where winter fades and the city moves indoors.",
+      "Bridging towers, gardens, and daily journeys high above the downtown streets.",
+      "A hidden world of warmth and connection, where the city breathes in a different rhythm.",
+      "Where the skyline meets the skywalk, and every step is a journey through Calgary's heart.",
+      "A network of bridges that turns the city into a labyrinth of light and life.",
+      "From office towers to shopping havens, the +15 is Calgary's elevated artery."
+    ];
+  $random_quote = $skywalk_quotes[array_rand($skywalk_quotes)];
+
+?>
 
 <!--Photo and Intro-->
   <div class="video-header">
@@ -57,9 +71,16 @@
      </section>
 
 <!--Quote that changes every refresh-->
-     <section>
-        <p>A city above a city, where the streets are made of light and the sky is just an arm's length away.</p>
-     </section>
+<section class="quote-banner">
+  <!-- Replace with your own ./temp/skywalk-icon.png or keep this SVG -->
+  <div class="banner-icon">
+      <img src="./temp/quote-icon.svg" alt="Outside view of Calgary's +15 Skywalk bridge at Stephen Avenue">
+    </div>
+
+  <blockquote class="quote-text">
+    <?php echo htmlspecialchars($random_quote); ?>
+  </blockquote>
+</section>
 
 <!--Operating Hours-->
 

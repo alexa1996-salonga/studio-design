@@ -28,5 +28,7 @@
 </footer>
 
 <script src="hamburger.js"></script>
+<script src="./effects.js"></script>
+
 </body>
 </html>

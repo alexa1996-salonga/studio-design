@@ -93,7 +93,6 @@ section.intro-section {
   margin-bottom: 1rem;
 }
 
-/* Centered Uppercase Section Title */
 h2.station-title {
   text-align: center;
   text-transform: uppercase;
@@ -103,7 +102,6 @@ h2.station-title {
   letter-spacing: 1px;
 }
 
-/* 3-Column Grid for the Cards */
 .stations-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -119,7 +117,6 @@ h2.station-title {
   align-items: center;
 }
 
-/* Forces Every Image into a Clean Square */
 .image-wrapper {
   width: 100%;
   aspect-ratio: 1 / 1;
@@ -138,11 +135,64 @@ h2.station-title {
   transform: scale(1.25);
 }
 
-/* Keeps Your Existing Blue Button Style & Aligns Its Spacing */
 .station-card a.a_button_style {
   width: 100%;             /* Matches the width of the square photo above it */
   margin: 1rem 0 0 0;      /* Removes left/right margin so it lines up with the image edges */
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 0.5px;
+}
+.quote-banner {
+  background-color: #131c36;
+  min-height: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 60px 24px;
+  margin: 40px 0;
+  border-radius: 4px;
+}
+
+.banner-icon {
+  width: 110px; 
+  margin-bottom: 24px;
+}
+
+.banner-icon img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.quote-text {
+  font-family: "futura-100-book", sans-serif;
+  font-weight: 800;
+  font-style: bolder;
+  color: #e8e9ed;
+  font-size: clamp(1.75rem, 3.8vw, 2.85rem);
+  line-height: 1.25;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  max-width: 820px;
+  margin: 0 auto;
+}
+
+.quote-banner .banner-icon,
+.quote-banner .quote-text {
+  opacity: 0;
+  transform: translateY(25px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+/* Quote fades in right after the icon */
+.quote-banner .quote-text {
+  transition-delay: 0.2s;
+}
+
+.quote-banner.is-visible .banner-icon,
+.quote-banner.is-visible .quote-text {
+  opacity: 1;
+  transform: translateY(0);
 }
