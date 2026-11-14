@@ -9,12 +9,19 @@
   </div>
 
 <main>
-  <section>
-  <div>
+  <section class="intro-section">
+    <div class="intro-image">
+      <img src="./temp/intro-skywalk.jpg" alt="Outside view of Calgary's +15 Skywalk bridge at Stephen Avenue">
+    </div>
+
+    <div class="intro-text">
     <h1>Calgary's +15 Skywalk</h1>
-    <p>World's most extensive indoor pedestrian skywalk network</p>
-    <p>The Calgary Plus 15 is a massive indoor bridging system running throughout the heart of downtown. Named for being situated exactly 15 feet above street level, this architectural network features 86 climate-controlled bridges that connect office towers, shopping centres, food courts, and public transit. <br>
-    Built to shield citizens from Calgary's harsh winter weather, it provides an accessible, vibrant indoor ecosystem far away from the bustling traffic below. Whether you are a daily commuter, a tourist, or a local exploring downtown, this website is your ultimate guide to navigating Calgary's historic "hidden gem."</p>
+    <p class="subtitle">World's most extensive indoor pedestrian skywalk network</p>
+    <p>The Calgary Plus 15 is a massive indoor bridging system running throughout the heart of downtown. Named for being situated exactly 15 feet above street level, this architectural network features 86 climate-controlled bridges that connect office towers, shopping centres, food courts, and public transit.</p>
+
+    <p>Built to shield citizens from Calgary's harsh winter weather, it provides an accessible, vibrant indoor ecosystem far away from the bustling traffic below. Whether you are a daily commuter, a tourist, or a local exploring downtown, this website is your ultimate guide to navigating Calgary's historic <q>hidden gem</q>.</p>
+
+    <p>Spanning over 16 kilometres across more than 100 buildings, the walkway connects iconic landmarks like the <i>CORE Shopping Centre, Bankers Hall, and the Calgary Tower</i>. Along the way, visitors can discover indoor botanical gardens, rotating public art installations, and cozy cafes without ever stepping outside.</p>
   </div>
   </section>
 

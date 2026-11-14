@@ -41,3 +41,55 @@ div.video-header {
   object-position: center;
   display: block;
 }
+section.intro-section {
+  background-color: #161a31;
+  color: #ffffff;
+  padding: 2.5rem 5rem 2.5rem 5rem;
+  border-radius: 4px;
+  
+  display: flex;              /* Forces side-by-side layout */
+  flex-direction: row;        /* Left to right */
+  align-items: flex-start;
+  gap: 2.5rem;                /* Space between photo and text */
+}
+
+/* Left Side: Photo */
+.intro-image {
+  flex: 1;                    /* Takes up 1 part of the width */
+  display: flex;
+  justify-content: center;
+}
+.intro-image img {
+  width: 100%;
+  max-width: 350px;           /* Adjust this to make the photo bigger or smaller */
+  height: auto;
+  display: block;
+}
+
+/* Right Side: Text */
+.intro-text {
+  flex: 1.2;                  /* Gives the text slightly more width than the photo */
+  text-align: center;
+}
+
+.intro-text h1 {
+  font-size: 2rem;
+  margin-top: 0;              /* Removes default space above the h1 */
+  padding-top: 0;             /* Overrides any earlier h1 padding */
+  margin-bottom: 0;
+  line-height: 1;             /* Tightens the top gap of the font so it matches the image top */
+  text-transform: uppercase;
+
+}
+
+.intro-text .subtitle {
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 1.50rem;
+}
+
+.intro-text p {
+  font-size: 0.85rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
