@@ -73,10 +73,9 @@
 
 <!--Quote that changes every refresh-->
 <section class="quote-banner">
-  <!-- Replace with your own ./temp/skywalk-icon.png or keep this SVG -->
   <div class="banner-icon">
       <img src="./temp/quote-icon.svg" alt="Outside view of Calgary's +15 Skywalk bridge at Stephen Avenue">
-    </div>
+  </div>
 
   <blockquote class="quote-text">
     <?php echo htmlspecialchars($random_quote); ?>
@@ -84,15 +83,25 @@
 </section>
 
 <!--Operating Hours-->
+  <div class="operating-hours-wrapper">
+    <section class="operating-hours-container">
+      <div class="operating-hours-image">
+        <img src="./temp/operating-hours.jpg" alt="Plus 15 Network Hours">
+      </div>
 
-     <section class="index-last-font">
-        <h2>Plus 15 Network Hours:</h2>
+      <div class="operating-hours-text">
+        <h2>Plus 15 Network Hours</h2>
+        <p class="subtitle">Plan your visit through Calgary's indoor walkway</p>
         <ul>
-          <li>Weekdays: 6 AM - 10 PM</li>
-          <li>Weekends & Statutory Holidays: 9 AM - 7 PM</li>
-          <li>Access to the Plus 15 Network will be closed on December 25 (Christmas Day)</li>
+          <li><strong>Weekdays:</strong> 6 AM – 9 PM</li>
+          <li><strong>Weekends & Statutory Holidays:</strong> 9 AM – 7 PM</li>
+          <li>Access to the Plus 15 Network will be closed on <br> December 25 (Christmas Day).</li>
         </ul>
-     </section>
+        <p><b>Note: These operating hours are subject to change and some bridges may have shorter hours or close on weekends and statutory holidays.</b><br><br>
+        <i>Visit <a href="https://www.calgary.ca/bike-walk-roll/plus-15-network.html" target="_blank" rel="noopener noreferrer">Calgary's official website </a> for construction & closure alerts <br> and other up-to-date information.</i></p>
+      </div>
+    </section>
+  </div>
 
 
 <?php require("footer.php"); ?>

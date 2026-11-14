@@ -204,3 +204,81 @@ h2.station-title {
   opacity: 1;
   transform: translateY(0);
 }
+
+.operating-hours-wrapper {
+  background-color: #f6f2ed; /* Swap with your exact cream hex code from main/body */
+  width: 100%;
+  padding: 4rem 2rem; /* Creates the cream space around the navy box */
+}
+
+/* Centered Navy Card (Exact match to your Intro card) */
+section.operating-hours-container {
+  background-color: #131c36;
+  color: #ffffff;
+  max-width: 1100px; /* Matches your intro-section box width */
+  margin: 0 auto;    /* Centers the navy box inside the cream wrapper */
+  margin-bottom: 1rem; /* Optional: adds space below the card */
+  padding: 3rem 5rem;
+  border-radius: 4px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+section.operating-hours-container a {
+    text-decoration: none;
+    color: #5bc5d5;
+
+}
+
+.operating-hours-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.operating-hours-image img {
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  display: block;
+}
+
+.operating-hours-text {
+  flex: 1.2;
+  text-align: center;
+}
+
+.operating-hours-text h2 {
+  font-family: "magistral", sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+  margin-top: 0;
+  margin-bottom: 0.4rem;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+
+.operating-hours-text .subtitle {
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+.operating-hours-text p {
+    font-size:2;
+}
+
+.operating-hours-text ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.operating-hours-text li {
+  font-family: "futura-100-book", sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
