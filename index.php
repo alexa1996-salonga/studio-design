@@ -1,13 +1,15 @@
-<?php require("header.php"); ?> 
-  <link rel="stylesheet" href="Fonts.css">
-  
-<main>
+<?php require("header.php"); ?>
+
 <!--Photo and Intro-->
-  <section>
-  <div>
-    <video src="replace this to the src" autoplay muted loop></video>
+  <div class="video-header">
+    <video autoplay muted loop playsinline>
+          <source src="./temp/skywalk_video_1.mp4" type="video/mp4">
+          Your browser does not support HTML5 video.
+    </video>
   </div>
 
+<main>
+  <section>
   <div>
     <h1>Calgary's +15 Skywalk</h1>
     <p>World's most extensive indoor pedestrian skywalk network</p>
@@ -61,7 +63,6 @@
           <li>Weekends & Statutory Holidays: 9 AM - 7 PM</li>
           <li>Access to the Plus 15 Network will be closed on December 25 (Christmas Day)</li>
         </ul>
-        <p>
      </section>
 </main>
 

@@ -2,6 +2,8 @@
 
 * {
     box-sizing: border-box;
+}
+body {
     margin: 0;
     padding: 0;
 }
@@ -9,18 +11,16 @@
 .site-header {
   width: 100%;
 }
-
 .logo-container {
   background-color: #f7f5ee;
   text-align: center;
-  padding: 15px 0;
+  padding: 0;
 }
 
 .site-logo {
   height: auto;
   width:auto;
-  scale: 120%;
-  max-height: 100px;
+  max-height: 80px;
   display: inline-block;
   margin: 0.5rem;
 }
@@ -86,9 +86,6 @@ button.Hamburg-button {
 img {
     max-width: 100%;
 }
-
-
-
 
 
 .dropdown-content {
