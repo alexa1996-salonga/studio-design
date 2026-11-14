@@ -144,15 +144,23 @@ h2.station-title {
 }
 .quote-banner {
   background-color: #131c36;
-  min-height: 420px;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  min-height: 550px;
+  padding: 100px 24px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 60px 24px;
-  margin: 40px 0;
-  border-radius: 4px;
+
 }
 
 .banner-icon {

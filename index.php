@@ -69,6 +69,7 @@
         </div>
         </div>
      </section>
+  </main>
 
 <!--Quote that changes every refresh-->
 <section class="quote-banner">
@@ -92,7 +93,6 @@
           <li>Access to the Plus 15 Network will be closed on December 25 (Christmas Day)</li>
         </ul>
      </section>
-</main>
 
 
 <?php require("footer.php"); ?>
