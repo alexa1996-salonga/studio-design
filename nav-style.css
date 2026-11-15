@@ -140,7 +140,7 @@ img {
 .site-footer {
     width: 100%;
     background-color: #f7f5ee;
-    border-top: 1px solid #e5e1da;
+    border-top: 8px solid #5bc5d5;
     padding: 2rem 1rem;
 }
 
@@ -226,7 +226,8 @@ a.a_button_style {
 }
 
 a.a_button_style:hover {
-    background-color: #174468;
+    background-color: #5bc5d5;
+    color: white;
 }
 
 
