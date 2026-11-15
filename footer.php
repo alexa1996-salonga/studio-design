@@ -14,14 +14,18 @@
 
         <!-- Middle links -->
         <div class="footer-link-group">
-            <a href="faq.php">FAQ</a>
-            <a href="contact.php">CONTACT US</a>
+            <h3>Official Resources</h3>
+
+            <a href="https://www.calgary.ca/bike-walk-roll/plus-15-network.html" target="_blank" rel="noopener noreferrer"> City of Calgary +15 Network</a>
+            <a href="https://calgarytransit.com" target="_blank" rel="noopener noreferrer"> Calgary Transit &amp; CTrain Maps </a>
+            <a href="https://visitcalgary.com" target="_blank" rel="noopener noreferrer">
+            Tourism Calgary Guide
+          </a>
         </div>
 
         <!-- Right links -->
-        <div class="footer-link-group">
-            <a href="contact.php#address">ADDRESS</a>
-            <a href="contact.php#phone">CONTACT #</a>
+        <div class="footer-top-action">
+        <a href="#top" class="back-to-top">Back to Top &uarr;</a>
         </div>
 
     </div>
