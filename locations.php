@@ -2,11 +2,20 @@
   
 <!--Plus 15 map-->
 <main>
-  <section>
-  <div>
-     <img src="./images/SkyScrape-Maps/Skyscrape_Maps.svg" alt="Plus 15 Skywalk map">
-  </div>
-  </section>
+      <!-- Your existing map image (add class="map-clickable") -->
+    <img 
+        src="./images/SkyScrape-Maps/Skyscrape_Maps.svg" 
+        alt="Calgary +15 Treasure Hunt Network Map" 
+        class="map-clickable"
+        id="skywalk-map"
+    >
+
+    <!-- Full-Screen Lightbox Overlay -->
+    <div id="map-lightbox" class="lightbox-overlay" aria-hidden="true">
+        <button type="button" id="close-lightbox" class="lightbox-close" aria-label="Close full-screen map">&times;</button>
+        <img id="lightbox-img" src="" alt="Full screen Calgary +15 Map">
+    </div>
+
 
     <h1>Operating Hours</h1>
 
@@ -36,7 +45,7 @@
         <h3>Free fare Zone</h3>
 
         <div>
-          <img src="https://placehold.co/600x400" alt="Placeholder image">
+          <img src="./images/train-station-freefare.jpeg" alt="Approaching Train in the train station">
         </div>
 
         <div>

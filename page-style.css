@@ -286,3 +286,68 @@ section.operating-hours-container a {
   font-size: 2rem;
   letter-spacing: 1px;
 }
+.free-fare-section p {
+   text-align: center;
+   font-size: 1.25rem;
+   padding-top: 2rem;
+   font-weight: bolder;
+}
+
+/* Indicate the map can be clicked to zoom */
+.map-clickable {
+    cursor: zoom-in;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.map-clickable:hover {
+    transform: scale(1.01);
+    box-shadow: 0 8px 24px rgba(17, 24, 47, 0.2);
+}
+
+.lightbox-overlay {
+    display: none;
+    position: fixed;
+    inset: 0; 
+    z-index: 9999;
+    background-color: rgba(17, 24, 47, 0.92); 
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    cursor: zoom-out;
+}
+
+.lightbox-overlay.is-open {
+    display: flex;
+}
+
+/* Full-screen map */
+.lightbox-overlay img {
+    max-width: 95vw;
+    max-height: 92vh;
+    width: auto;
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    cursor: default;
+}
+
+/* Close button in the top-right corner */
+.lightbox-close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    background: none;
+    border: none;
+    color: #f7f5ee;
+    font-size: 3rem;
+    line-height: 1;
+    cursor: pointer;
+    transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.lightbox-close:hover {
+    color: #5bc5d5; 
+    transform: scale(1.1);
+}
+
+
