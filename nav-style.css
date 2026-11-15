@@ -131,7 +131,6 @@ img {
     background-color: #174468;
 }
 
-/* Keeps it open while hovering over the link or menu */
 .dropdown:hover .dropdown-content,
 .dropdown:focus-within .dropdown-content {
     display: block;
@@ -142,7 +141,7 @@ img {
     width: 100%;
     background-color: #f7f5ee;
     border-top: 1px solid #e5e1da;
-    padding: 2rem 1rem; /* Adds breathing room top, bottom, and sides */
+    padding: 2rem 1rem;
 }
 
 .footer-inner {
@@ -151,12 +150,11 @@ img {
     margin: 0 auto;
 
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 equal-width boxes */
-    align-items: center;                   /* Vertically aligns all 3 boxes in a row */
+    grid-template-columns: repeat(3, 1fr); 
+    align-items: center;                   
     text-align: center;
 }
 
-/* Box 1: Logo centered in its column */
 .footer-logo {
     display: flex;
     justify-content: center;
@@ -166,7 +164,7 @@ img {
 
 .footer-logo-image {
     display: block;
-    width: 200px;  
+    width: 170px;  
     max-height: none;
     height: auto;
 }
@@ -191,6 +189,27 @@ div.footer-link-group a {
 
 .footer-link-group a:hover {
     color: #5bc5d5;
+}
+/*Back to Top icon*/
+
+.site-footer a.back-to-top {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    padding: 0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.back-to-top-icon {
+    display: block;
+    width: 45px;  /* Adjust this pixel size to make your icon bigger or smaller */
+    height: auto;
+}
+
+.site-footer a.back-to-top:hover {
+    transform: translateY(-4px); /* Subtle upward lift on hover */
+    opacity: 0.85;
 }
 
 /* BUTTON STYLES */

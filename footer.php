@@ -25,8 +25,11 @@
 
         <!-- Right links -->
         <div class="footer-top-action">
-        <a href="#top" class="back-to-top">Back to Top &uarr;</a>
+            <a href="#top" class="back-to-top" aria-label="Back to Top" title="Back to Top">
+                <img src="./images/arrow-up.png" alt="Back to Top" class="back-to-top-icon">
+            </a>
         </div>
+
 
     </div>
 </footer>
