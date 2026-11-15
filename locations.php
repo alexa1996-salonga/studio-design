@@ -4,7 +4,7 @@
 <main>
       <!-- Your existing map image (add class="map-clickable") -->
     <img 
-        src="./images/SkyScrape-Maps/Skyscrape_Maps.svg" 
+        src="./images/SkyScrape-Maps/SkyScrape_Maps.png" 
         alt="Calgary +15 Treasure Hunt Network Map" 
         class="map-clickable"
         id="skywalk-map"
