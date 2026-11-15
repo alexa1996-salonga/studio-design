@@ -408,3 +408,22 @@ section.operating-hours-container a {
     flex-direction: column;
     gap: 2rem;
 }
+.faq-item {
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.faq-question {
+    background-color: #10183f; 
+    color: white;
+    padding: 1.5rem 2rem;
+}
+
+.faq-answer {
+    background-color: #8CC6D4; 
+    padding: 2rem;
+}
+summary.faq-question p.faq-answer {
+    font-weight: bolder;
+}
