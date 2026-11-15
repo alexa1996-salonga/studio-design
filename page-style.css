@@ -349,5 +349,20 @@ section.operating-hours-container a {
     color: #5bc5d5; 
     transform: scale(1.1);
 }
+/*Fun fact Banner*/
+.fun-fact-banner {
+  width: 100%;
+  height: 450px;       
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
 
-
+.fun-fact-banner img {
+  width: 100%;         
+  height: 100%;        
+  max-width: none;    
+  object-fit:cover; 
+  object-position: center;
+  display: block;
+}
