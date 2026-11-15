@@ -9,6 +9,7 @@
 font-family: "magistral", sans-serif;
 font-weight: 500;
 font-style: normal;
+text-transform: uppercase;
 }
 
 p, ul.fun-facts-fonts, ul.locations-fonts, a.a_button_style, section.index-last-font, summary {
@@ -136,8 +137,8 @@ h2.station-title {
 }
 
 .station-card a.a_button_style {
-  width: 100%;             /* Matches the width of the square photo above it */
-  margin: 1rem 0 0 0;      /* Removes left/right margin so it lines up with the image edges */
+  width: 100%;             
+  margin: 1rem 0 0 0;      
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 0.5px;
@@ -146,10 +147,10 @@ h2.station-title {
 .quote-banner {
   background-color: #131c36;
   width: 100%;
-  min-height: 100vh; /* Makes the navy background fill the entire screen height */
+  min-height: 100vh; 
   padding: 10rem 2rem;
-  margin-top: 60px;  /* Keeps space above from the Stations section */
-  margin-bottom: 0;  /* Connects seamlessly to the cream Operating Hours section below */
+  margin-top: 60px; 
+  margin-bottom: 5rem;  
 
   display: flex;
   flex-direction: column;
@@ -159,7 +160,7 @@ h2.station-title {
 }
 
 .banner-icon {
-  width: 200px;      /* Slightly larger icon to balance the bigger text */
+  width: 200px;      
   margin-bottom: 32px;
 }
 
@@ -173,11 +174,11 @@ h2.station-title {
   font-family: "futura-100-book", sans-serif;
   font-weight: 800;
   color: #e8e9ed;
-  font-size: clamp(2.25rem, 5vw, 4.25rem); /* Significantly larger responsive text */
+  font-size: clamp(2.25rem, 5vw, 4.25rem); 
   line-height: 1.2;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  max-width: 1100px; /* Widened so larger text wraps cleanly in 3–4 lines */
+  max-width: 1100px; 
   margin: 0 auto;
 }
 
@@ -200,18 +201,18 @@ h2.station-title {
 }
 
 .operating-hours-wrapper {
-  background-color: #f6f2ed; /* Swap with your exact cream hex code from main/body */
   width: 100%;
-  padding: 4rem 2rem; /* Creates the cream space around the navy box */
+  padding: 2rem;
+  padding-bottom: 2rem;
+  padding-top: 1rem;
 }
 
-/* Centered Navy Card (Exact match to your Intro card) */
 section.operating-hours-container {
   background-color: #131c36;
   color: #ffffff;
-  max-width: 1100px; /* Matches your intro-section box width */
-  margin: 0 auto;    /* Centers the navy box inside the cream wrapper */
-  margin-bottom: 1rem; /* Optional: adds space below the card */
+  max-width: 1100px; 
+  margin: 0 auto;    
+  margin-bottom: 1rem; 
   padding: 3rem 5rem;
   border-radius: 4px;
 
@@ -275,4 +276,13 @@ section.operating-hours-container a {
   font-size: 1.25rem;
   line-height: 1.6;
   margin-bottom: 1rem;
+}
+
+.free-fare-section h3 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #161a31;
+  margin: 0 0 2rem 0;
+  font-size: 2rem;
+  letter-spacing: 1px;
 }

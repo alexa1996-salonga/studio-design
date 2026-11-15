@@ -1,31 +1,38 @@
 <?php require("header.php"); ?>
-  <link rel="stylesheet" href="Fonts.css">
-  <link rel="stylesheet" href="cardstations.css">
   
 <!--Plus 15 map-->
 <main>
   <section>
   <div>
-     <img src="https://placehold.co/600x400" alt="Placeholder image">
+     <img src="./images/SkyScrape-Maps/Skyscrape_Maps.svg" alt="Plus 15 Skywalk map">
   </div>
   </section>
 
     <h1>Operating Hours</h1>
 
-<!--Complete Operating Hours-->
-    <section>
-        <h2>Plus 15 Network Hours:</h2>
-        <ul class="locations-fonts">
-          <li>Weekdays: 6 AM - 10 PM</li>
-          <li>Weekends & Statutory Holidays: 9 AM - 7 PM</li>
-          <li>Access to the Plus 15 Network will be closed on December 25 (Christmas Day)</li>
+<!--Operating Hours-->
+  <div class="operating-hours-wrapper">
+    <section class="operating-hours-container">
+      <div class="operating-hours-image">
+        <img src="./temp/operating-hours.jpg" alt="Plus 15 Network Hours">
+      </div>
+
+      <div class="operating-hours-text">
+        <h2>Plus 15 Network Hours</h2>
+        <p class="subtitle">Plan your visit through Calgary's indoor walkway</p>
+        <ul>
+          <li><strong>Weekdays:</strong> 6 AM – 9 PM</li>
+          <li><strong>Weekends & Statutory Holidays:</strong> 9 AM – 7 PM</li>
+          <li>Access to the Plus 15 Network will be closed on <br> December 25 (Christmas Day).</li>
         </ul>
-        <p>Note: These operating hours are subject to change and some bridges may have shorter hours or close on weekends and statutory holidays.</p>
-        <p>Make sure to check the updated services of the Calgary +15 Skywalk system here to ensure a smoother experience.</p>
-     </section>
+        <p><b>Note: These operating hours are subject to change and some bridges may have shorter hours or close on weekends and statutory holidays.</b><br><br>
+        <i>Visit <a href="https://www.calgary.ca/bike-walk-roll/plus-15-network.html" target="_blank" rel="noopener noreferrer">Calgary's official website </a> for construction & closure alerts <br> and other up-to-date information.</i></p>
+      </div>
+    </section>
+  </div>
 
 <!--Free Fare Zone Info-->
-     <section>
+     <section class="free-fare-section">
         <h3>Free fare Zone</h3>
 
         <div>
@@ -38,33 +45,35 @@
       </section>
 
 
-<!--Stations-->
-
-        <section>
-        <h2>Stations to Explore</h2>
+<!--Stations to Explore-->
+   <section class="stations-container">
+        <h2 class="station-title">Stations to Explore</h2>
         
-
+        <div class="stations-grid">
         <!-- Card 1 -->
-        <div class="stations-card">
-          <img src="https://placehold.co/600x400" alt="8th SW Skywalk Bridge">
-          <a href="stations.php" class="a_button_style">8th SW</a>
+        <div class="station-card">
+        <div class="image-wrapper">
+           <img src="./temp/8th-station-fountain.jpg" alt="8th SW Skywalk Bridge">
         </div>
-
+        <a href="stations.php" class="a_button_style">8th SW</a>
+        </div>
 
         <!-- Card 2 -->
-        <div class="stations-card">
-          <img src="https://placehold.co/600x400" alt="3rd SW Skywalk Bridge">
-          <a href="3rdstation.php" class="a_button_style">3rd SW</a>
+        <div class="station-card">
+        <div class="image-wrapper">
+             <img src="./temp/3rd-station-spirit-of-land.jpeg" alt="3rd SW Skywalk Bridge">
         </div>
-
+        <a href="3rdstation.php" class="a_button_style">3rd SW</a>
+        </div>
 
         <!-- Card 3 -->
-        <div class="stations-card">
-          <img src="https://placehold.co/600x400" alt="City Hall Skywalk Bridge">
-          <a href="cityhall.php" class="a_button_style">City Hall</a>
+        <div class="station-card">
+        <div class="image-wrapper">
+              <img src="./temp/city-hall-Calgary-Municipal-Building.jpg" alt="City Hall Skywalk Bridge">
         </div>
-
-
-        </section>
-</main>
+        <a href="cityhall.php" class="a_button_style">City Hall</a>
+        </div>
+        </div>
+     </section>
+  </main>
 <?php require("footer.php"); ?>
