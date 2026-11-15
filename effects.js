@@ -57,3 +57,27 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 });
+document.addEventListener("DOMContentLoaded", () => {
+
+    const factsSection = document.querySelector(".facts-container");
+
+    if (!factsSection) return;
+
+    const observer = new IntersectionObserver((entries, obs) => {
+
+        entries.forEach(entry => {
+
+            if (entry.isIntersecting) {
+                entry.target.classList.add("is-visible");
+                obs.unobserve(entry.target);
+            }
+
+        });
+
+    }, {
+        threshold: 0.2
+    });
+
+    observer.observe(factsSection);
+
+});
