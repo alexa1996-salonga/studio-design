@@ -338,9 +338,23 @@ main.about-main h2, main.about-main h3, main.about-main p, main.about-main img{
 
     section.col-span-2 {
         display: grid;
+        /* grid-template-areas: "image text"; */
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
     }
+
+    section.switch-order {
+        grid-template-areas: "text image";
+    }
+
+    section.switch-order img {
+        grid-area: image;
+    }
+
+    section.switch-order div {
+        grid-area: text;
+    }
+
 
     div.description-text {
         padding: 1.5rem 0 0.5rem 0;

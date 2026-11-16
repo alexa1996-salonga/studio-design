@@ -9,30 +9,29 @@
     <div class="color-box">
     <h2 class="col-span-2">Top 3 Featured Spots</h2>
         <section class="col-span-2">
-            <div>
+
                 <img src="images/AMEC.webp" alt="Photograph of an irreguar shaped fountain with many plants and a painting behind it">
-            </div>
+
             <div class="description-text">
                 <h3>AMEC Place</h3>
                 <p>Within the AMEC Place holds a small indoor atrium garden with a mediterranean and tropical vibe. The atrium is filled with many vast tropical plants, trees as well as artwork. There is natural lighting that shines in from the large glass roof above which makes the atrium a peaceful little garden to escape to. In the center of the atrium lies a unique water fountain with tables and seating areas for anyone who wants to work, eat, relax and admire the scenery. </p>
             </div>
         
         </section>
-        <section class="col-span-2">
-            <div>
+        <section class="col-span-2 switch-order">
+
                 <img src="images/Aquitaine.webp" alt="Photograph of the outside rooftop of a downtown calgary building with a sculpture of metal stars conjoined">
-            </div>
             <div class="description-text">
                 <h3>Aquitaine Tower </h3>
                 <p>A sculpture called “Moonstairs” by Jacacqueline Badord placed outside at the northeast corner of the deck. They are made up of 800 aluminum modules with a 7m high cast in Paris and assembled in Calgary by Badord’s husband Oliver Deschamps and son Dominique. The artist expressed this sculpture as a design to occupy space, with the interpretation left to the imagination of the observer.</p>
                 <p><strong>*Note: there is an entrance with no door knob, be careful to see the right entrance and exit. Bring a friend.</strong></p>
             </div>
-        
+    
         </section>
         <section class="col-span-2"> 
-            <div>
+
                 <img src="images/Chevron.webp" alt="Photograph of Little Free Library with two box stands full of books on display" >
-            </div>
+
 
             <div class="description-text">
                 <h3>Chevron Plaza</h3>
