@@ -243,10 +243,13 @@ main div.color-box {
     border-radius: 4px;
 }
 
+main div.color-box h2, main div.color-box p {
+    color: #f4f0e9;
+}
 
-
-
-
+main.about-main h2, main.about-main h3, main.about-main p, main.about-main img{
+    margin: 1.5rem 0 0.5rem 0;
+}
 
 
 
@@ -303,6 +306,12 @@ main div.color-box {
 
 /* USING MIN WIDTH */
 @media (min-width: 768px) {
+    main.about-main {
+        display: grid;
+        grid-template-rows: 1fr;
+        
+    }
+
     main div.color-box  {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -327,6 +336,10 @@ main div.color-box {
     h3 {
         margin: 2rem 0.5rem 0.5rem 0.5rem;
     }
+
+
+
+
 
 }
 
