@@ -10,7 +10,7 @@
     <h2 class="col-span-2">Top 3 Featured Spots</h2>
         <section class="col-span-2">
 
-                <img src="images/AMEC.webp" alt="Photograph of an irreguar shaped fountain with many plants and a painting behind it">
+                <img src="images/AMEC.webp" alt="Photograph of an irreguar shaped fountain with many plants and a painting behind it" width="900" height="900">
 
             <div class="description-text">
                 <h3>AMEC Place</h3>
@@ -20,7 +20,7 @@
         </section>
         <section class="col-span-2 switch-order">
 
-                <img src="images/Aquitaine.webp" alt="Photograph of the outside rooftop of a downtown calgary building with a sculpture of metal stars conjoined">
+                <img src="images/Aquitaine.webp" alt="Photograph of the outside rooftop of a downtown calgary building with a sculpture of metal stars conjoined" width="900" height="900">
             <div class="description-text">
                 <h3>Aquitaine Tower </h3>
                 <p>A sculpture called “Moonstairs” by Jacacqueline Badord placed outside at the northeast corner of the deck. They are made up of 800 aluminum modules with a 7m high cast in Paris and assembled in Calgary by Badord’s husband Oliver Deschamps and son Dominique. The artist expressed this sculpture as a design to occupy space, with the interpretation left to the imagination of the observer.</p>
@@ -30,7 +30,7 @@
         </section>
         <section class="col-span-2"> 
 
-                <img src="images/Chevron.webp" alt="Photograph of Little Free Library with two box stands full of books on display" >
+                <img src="images/Chevron.webp" alt="Photograph of Little Free Library with two box stands full of books on display" width="900" height="900">
 
 
             <div class="description-text">

@@ -91,6 +91,7 @@ button.Hamburg-button {
 /* IMAGES */
 img {
     max-width: 100%;
+    height: auto;
 }
 
 
@@ -260,6 +261,8 @@ main.about-main h2, main.about-main h3, main.about-main p, main.about-main img{
 @media (max-width: 971px) {
     button.Hamburg-button {
         display: block;
+        padding: 1rem;
+        margin: 1rem;
     }
 
     button.Hamburg-button.menuActive {

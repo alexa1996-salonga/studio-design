@@ -9,7 +9,7 @@
             <h2 class="col-span-2">Top 3 Featured Spots</h2>
             <section class="col-span-2">
 
-                    <img src="images/CORE.webp" alt="Photograph of the Food Court with Best Buy, Jugo Juice, and Mr. Preztels">
+                    <img src="images/CORE.webp" alt="Photograph of the Food Court with Best Buy, Jugo Juice, and Mr. Preztels" width="900" height="900">
 
                 <div class="description-text">
                     <h3>The Core Shopping Centre</h3>
@@ -23,7 +23,7 @@
             
             <section class="col-span-2 switch-order">
 
-                    <img src="images/Devonian.webp" alt="Photograph of an indoor pond with hanging plants above">
+                    <img src="images/Devonian.webp" alt="Photograph of an indoor pond with hanging plants above" width="900" height="900">
 
                 <div class="description-text">
                     <h3>Devonian Garden</h3>
@@ -33,7 +33,7 @@
             </section>
             <section class="col-span-2">
 
-                    <img src="images/Petepig.jpg" alt="Photograph of a sculpted pig with dark spots in a glass display">
+                    <img src="images/Petepig.jpg" alt="Photograph of a sculpted pig with dark spots in a glass display" width="900" height="900">
 
                 <div class="description-text">
                     <h3>Pete Pig</h3>

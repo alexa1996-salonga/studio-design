@@ -9,7 +9,7 @@
             <h2 class="col-span-2">Top 3 Featured Spots</h2>
             <section class="col-span-2">
 
-                    <img src="images/Calgary Tower.jpg" alt="Photograph of the Calgary Tower">
+                    <img src="images/Calgary Tower.jpg" alt="Photograph of the Calgary Tower" width="900" height="900">
                 <div class="description-text">
                     <h3>Calgary Tower</h3>
                     <p>A 190.8-metre (626 ft) free-standing observation tower located in downtown Calgary, Alberta. Opened in 1968 as the Husky Tower to celebrate Canada's centennial, it was renamed in 1971 and famously featured a natural gas cauldron for the 1988 Winter Olympics. Today, the popular tourist attraction offers a 360-degree panoramic view of the city and the Rocky Mountains, a glass floor looking straight down to the street below, and Sky 360, a revolving restaurant that completes a full rotation every hour.</p>
@@ -20,7 +20,7 @@
             
             <section class="col-span-2 switch-order">
 
-                    <img src="images/Calgary Municipal Building.jpg" alt="Photograph of a lion statue in front of the Calgary Municipal Building" >
+                    <img src="images/Calgary Municipal Building.jpg" alt="Photograph of a lion statue in front of the Calgary Municipal Building" width="900" height="900">
 
                 <div class="description-text">
                     <h3>Calgary's Municipal Building</h3>
@@ -29,7 +29,7 @@
             
             </section>
             <section class="col-span-2">
-                    <img src="images/Art Commons.jpg" alt="Photograph of twelve movies on display and a big screen displaying another movie">
+                    <img src="images/Art Commons.jpg" alt="Photograph of twelve movies on display and a big screen displaying another movie" width="900" height="900">
                 <div class="description-text">
                     <h3>Art Commons</h3>
                     <p>Recently renamed the Werklund Centre is a massive 560,000-square-foot performing arts complex spanning an entire city block in downtown Calgary's Olympic Plaza Cultural District. As one of Canada's largest arts centres, it features five distinct theatres and the world-class, 1,800-seat Jack Singer Concert Hall, serving as the home base for major resident companies like the Calgary Philharmonic Orchestra, Theatre Calgary, and Alberta Theatre Projects. Located at 205 8 Avenue SE, the venue seamlessly integrates into the city's +15 skywalk network with free public visual art galleries, a CTrain connection, and is currently undergoing a major multi-million-dollar expansion and modernization project.</p>
