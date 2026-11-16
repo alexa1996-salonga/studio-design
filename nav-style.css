@@ -17,7 +17,7 @@ body {
   width: 100%;
 }
 .logo-container {
-    border: 2px solid red;
+    /* border: 2px solid red; */
   background-color: #f7f5ee;
   text-align: center;
   padding: 0;
@@ -261,8 +261,9 @@ main.about-main h2, main.about-main h3, main.about-main p, main.about-main img{
 @media (max-width: 971px) {
     button.Hamburg-button {
         display: block;
+        font-size: 2.5rem;
         padding: 1rem;
-        margin: 1rem;
+        margin: 0 1rem;
     }
 
     button.Hamburg-button.menuActive {
@@ -275,6 +276,7 @@ main.about-main h2, main.about-main h3, main.about-main p, main.about-main img{
 
     .navbar.navOn {
         display: block; 
+        padding: 0;
     } 
 
     .nav-list {
@@ -282,11 +284,12 @@ main.about-main h2, main.about-main h3, main.about-main p, main.about-main img{
     }
 
     nav ul li {
-        border: 2px solid red;
+        /* border: 2px solid red; */
         display: block;
         text-align: center;
         margin: 0.5rem;
-        padding: 1rem
+        padding: 1rem;
+        border-bottom: 1.5px solid #11182f;
     }
 
     .logo-container {
