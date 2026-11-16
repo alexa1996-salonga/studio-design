@@ -307,8 +307,7 @@ main.about-main h2, main.about-main h3, main.about-main p, main.about-main img{
 /* USING MIN WIDTH */
 @media (min-width: 768px) {
     main.about-main {
-        display: grid;
-        grid-template-rows: 1fr;
+        
         
     }
 
