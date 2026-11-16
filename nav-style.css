@@ -240,7 +240,7 @@ main {
 main div.color-box {
     background-color: #161a31;
     padding: 2rem;
-    border-radius: 10px;
+    border-radius: 4px;
 }
 
 
@@ -309,18 +309,42 @@ main div.color-box {
         gap: 1rem;
     }
 
+    main div.color-box .col-span-2 {
+        grid-column: span 2;
+    }
+
+    section.col-span-2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    div.description-text {
+        padding: 1.5rem 0 0.5rem 0;
+        text-align: center;
+    }
+
     h3 {
         margin: 2rem 0.5rem 0.5rem 0.5rem;
     }
 
 }
 
+
+
+
+/* MEDIUM DEVICES/SMALL COMPUTERS */
 @media (min-width: 971px) {
     main  {
         margin: 0 3rem 1.5rem 3rem;
     }
 }
 
+
+
+
+
+/* LARGE SCREENS */
 @media (min-width: 1100px) {
     main  {
         margin: 0 6rem 1.5rem 6rem;
