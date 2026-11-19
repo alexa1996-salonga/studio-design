@@ -16,7 +16,7 @@
     <header class="site-header">
     <div class="logo-container">
         <a href="index.php">
-            <img src="./images/Dark_Horizontal_Logo.png" alt="Sky Scrape Logo" class="site-logo">
+            <img src="./images/Dark_Horizontal_Logo.png" alt="Sky Scrape Logo" class="site-logo" width="4500" height="1042">
         </a>
         <button class="Hamburg-button">&#9776;</button>
     </div>

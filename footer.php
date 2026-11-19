@@ -8,6 +8,7 @@
                     src="./images/footer_logo.png"
                     alt="Sky Scrape +15 Logo"
                     class="footer-logo-image"
+                    width="4500" height="4500"
                 >
             </a>
         </div>

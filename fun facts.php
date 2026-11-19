@@ -25,7 +25,7 @@ $randomFacts = array_slice($facts, 0, 4);
   <!--Skybridge photo from outside-->
     <section class="fun-fact-banner">
     <div>
-       <img src="./images/fun-facts-hero.jpeg" alt="View of skywbridge and trainstation">
+       <img src="./images/fun-facts-hero.jpeg" alt="View of skywbridge and trainstation" width="1372" height="621">
     </div>
     </section>
   
@@ -49,7 +49,7 @@ $randomFacts = array_slice($facts, 0, 4);
 
         <div class="facts-image">
             <img src="./images/site-map.jpg"
-                alt="A tangible map located at skybridge">
+                alt="A tangible map located at skybridge" width="1711" height="2149">
         </div>
 
     </div>

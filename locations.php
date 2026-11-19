@@ -8,6 +8,7 @@
         alt="Calgary +15 Treasure Hunt Network Map" 
         class="map-clickable"
         id="skywalk-map"
+        width="5780" height="3300"
     >
 
     <!-- Full-Screen Lightbox Overlay -->
@@ -45,7 +46,7 @@
         <h3>Free fare Zone</h3>
 
         <div>
-          <img src="./images/train-station-freefare.jpeg" alt="Approaching Train in the train station">
+          <img src="./images/train-station-freefare.jpeg" alt="Approaching Train in the train station" width="1376" height="768">
         </div>
 
         <div>
@@ -62,7 +63,7 @@
         <!-- Card 1 -->
         <div class="station-card">
         <div class="image-wrapper">
-           <img src="./temp/8th-station-fountain.jpg" alt="8th SW Skywalk Bridge">
+           <img src="./temp/8th-station-fountain.jpg" alt="8th SW Skywalk Bridge" width="4032" height="3024">
         </div>
         <a href="stations.php" class="a_button_style">8th SW</a>
         </div>
@@ -70,7 +71,7 @@
         <!-- Card 2 -->
         <div class="station-card">
         <div class="image-wrapper">
-             <img src="./temp/3rd-station-spirit-of-land.jpeg" alt="3rd SW Skywalk Bridge">
+             <img src="./temp/3rd-station-spirit-of-land.jpeg" alt="3rd SW Skywalk Bridge" width="4032" height="3024">
         </div>
         <a href="3rdstation.php" class="a_button_style">3rd SW</a>
         </div>
@@ -78,7 +79,7 @@
         <!-- Card 3 -->
         <div class="station-card">
         <div class="image-wrapper">
-              <img src="./temp/city-hall-Calgary-Municipal-Building.jpg" alt="City Hall Skywalk Bridge">
+              <img src="./temp/city-hall-Calgary-Municipal-Building.jpg" alt="City Hall Skywalk Bridge" width="900" height="900">
         </div>
         <a href="cityhall.php" class="a_button_style">City Hall</a>
         </div>

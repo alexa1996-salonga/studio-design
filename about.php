@@ -10,7 +10,7 @@
                 <h2 class="col-span-2">What is the +15 Skywalk?</h2>
                 <p class="col-span-2">The Calgary +15 skywalk is a bridging system that runs throughout downtown Calgary connecting most buildings to one another for easy access. It allows for easy accessibility for all ages and abilities, connecting people throughout certain buildings in downtown whether it be food courts, shopping centres, public art, or even office and work related buildings. The skywalk comprises 86 bridge connections that are situated 15 feet above the street levels, hence the name “+15”.</p>
         
-                <img src="images/skywalk_about2.webp" alt="Photography of the inside of a white, grey, and creme colored bridge with glass windows that show the outside buildings">
+                <img src="images/skywalk_about2.webp" alt="Photography of the inside of a white, grey, and creme colored bridge with glass windows that show the outside buildings" width="900" height="675">
         
                 <div>
                         <p>With the winter season coming round the corner, the +15 skywalk was built to keep citizens warm and protected from the cold and snowy weather outside.The skywalk keeps the pedestrians far away from the bustling streets of cars and buses as the bridges themselves are situated pretty high up.</p>
@@ -26,7 +26,7 @@
                 <div>
                         <h3>Why it was built</h3>
                         <p>Due to the increasing population within Calgary and downtown, the skywalk was built to decrease foot traffic by giving another passage for citizens to walk through. It helps with traffic flow, density in downtown, as well as protection from the harsh weather in winter.</p>
-                        <img src="images/skywalk_about3.webp" alt="photography of an elevated glass bridge of the +15skywalk with a calgary c-train running">
+                        <img src="images/skywalk_about3.webp" alt="photography of an elevated glass bridge of the +15skywalk with a calgary c-train running" width="900" height="675">
                 </div>
         
                 <div>
