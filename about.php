@@ -30,7 +30,7 @@
                         <p>Due to the increasing population within Calgary and downtown, the skywalk was built to decrease foot traffic by giving another passage for citizens to walk through. It helps with traffic flow, density in downtown, as well as protection from the harsh weather in winter.</p>
                         <!-- <img src="images/skywalk_about3.webp" alt="photography of an elevated glass bridge of the +15skywalk with a calgary c-train running" width="900" height="675"> -->
                 </div>
-                        <img src="images/skywalk_about3.webp" alt="photography of an elevated glass bridge of the +15skywalk with a calgary c-train running" width="900" height="675" class="float-right">
+                        <img src="images/skywalk_about3.webp" alt="photography of an elevated glass bridge of the +15skywalk with a calgary c-train running" width="900" height="675" class="float-right" style="max-width: 50%; height:auto">
                 
                         <h3>Why people use it</h3>
                         <p>Based on the 2019 survey, people use the Plus 15 network not only to avoid poor weather but also because it offers convenient routes, easier street crossings, access to shops and restaurants, and connections to workplaces. Many users enter the network through office buildings, highlighting the important role that downtown office towers play as key access points and destinations.</p>
