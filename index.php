@@ -11,7 +11,6 @@
       "From office towers to shopping havens, the +15 is Calgary's elevated artery."
     ];
   $random_quote = $skywalk_quotes[array_rand($skywalk_quotes)];
-
 ?>
 
 <!--Photo and Intro-->
@@ -20,11 +19,12 @@
 </div>
 
 
-
 <main>
   <section class="intro-section">
     <div class="intro-image">
-      <img src="./temp/intro-skywalk.jpg" alt="Outside view of Calgary's +15 Skywalk bridge at Stephen Avenue" width="3024" height="4032">
+      <img src="./temp/intro-skywalk.jpg" alt="Outside view of Calgary's +15 Skywalk bridge at Stephen Avenue" width="3024" height="4032" class="img-vertical">
+
+      <img src="./temp/intro-skywalk_horizontal.jpg" alt="Outside view of Calgary's +15 Skywalk bridge at Stephen Avenue" width="3024" height="2048" class="img-horizontal">
     </div>
 
     <div class="intro-text">
@@ -39,7 +39,7 @@
   </section>
 
 <!--Stations to Explore-->
-   <section class="stations-container">
+   <section>
         <h2 class="station-title">Stations to Explore</h2>
         
         <div class="stations-grid">

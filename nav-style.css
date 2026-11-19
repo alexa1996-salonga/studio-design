@@ -253,9 +253,13 @@ main.about-main h2, main.about-main h3, main.about-main p, main.about-main img{
     margin: 1.5rem 0 0.5rem 0;
 }
 
+.intro-image img.img-vertical {
+  display: none;
+}
 
-
-
+.station-card {
+  margin: 1rem 1rem 2rem 1rem;
+}
 
 /* Hamburger menu for Tablet and Mobile */
 @media (max-width: 971px) {
@@ -296,6 +300,8 @@ main.about-main h2, main.about-main h3, main.about-main p, main.about-main img{
         display: flex;
         justify-content: space-between;
     }
+
+
 }
 
 
@@ -327,10 +333,6 @@ main.about-main h2, main.about-main h3, main.about-main p, main.about-main img{
 
 /* USING MIN WIDTH */
 @media (min-width: 768px) {
-    main.about-main {
-        
-        
-    }
 
     main div.color-box  {
         display: grid;
@@ -338,7 +340,7 @@ main.about-main h2, main.about-main h3, main.about-main p, main.about-main img{
         gap: 1rem;
     }
 
-    main div.color-box .col-span-2 {
+    .col-span-2 {
         grid-column: span 2;
     }
 
@@ -367,16 +369,37 @@ main.about-main h2, main.about-main h3, main.about-main p, main.about-main img{
         text-align: center;
     }
 
+     /* div.grid-beside {
+        border: 2px solid red;
+    } */
+
+    img.float-right {
+        margin: 1.7rem 0.7rem 0.7rem 0.7rem;
+        max-width: 50%;
+        float: right;
+    }
+
     h3 {
         margin: 2rem 0.5rem 0.5rem 0.5rem;
     }
 
+    section.intro-section {
+        padding: 2.5rem 5rem 2.5rem 5rem;
+    }
 
+    .station-card {
+        margin: 1rem 0 2rem 0;
+    }
 
-
-
+    .stations-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.2rem;
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 0 1rem;
+    } 
 }
-
 
 
 
@@ -384,6 +407,22 @@ main.about-main h2, main.about-main h3, main.about-main p, main.about-main img{
 @media (min-width: 971px) {
     main  {
         margin: 0 3rem 1.5rem 3rem;
+    }
+    
+    section.intro-section {
+        display: flex;              
+        flex-direction: row;      
+        align-items: flex-start;
+        gap: 2.5rem; 
+        margin-top: 1rem;   
+    }
+
+    .intro-image img.img-vertical {
+        display: block;
+    }
+
+    .intro-image img.img-horizontal {
+        display: none;
     }
 }
 
@@ -396,6 +435,8 @@ main.about-main h2, main.about-main h3, main.about-main p, main.about-main img{
     main  {
         margin: 0 6rem 1.5rem 6rem;
     }
+
+
 }
 
 @media (min-width: 1200px) {
