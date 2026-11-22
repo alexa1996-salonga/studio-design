@@ -444,8 +444,8 @@ section.operating-hours-container a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 800px; 
-    margin: 3rem auto;
+    max-width: 800px;
+    margin: 0 auto;
     padding: 0 1.5rem;
 }
 
@@ -499,4 +499,7 @@ a.game-button {
 a.game-button:hover {
     background-color: #5bc5d5;
     color: white;
+}
+main {
+  padding-bottom: 0rem;
 }
