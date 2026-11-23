@@ -14,7 +14,7 @@
 
         <div class="hunt-cta">
             <img src="./images/qr-codes/game-qr.png" alt="Scan QR code to begin the +15 scavenger hunt" class="qr-code">
-            <a href="" class="game-button">Begin the Hunt</a>
+            <a href="https://alexa1996-salonga.github.io/skyscrape-digital-scavenger-hunt/" class="game-button">Begin the Hunt</a>
         </div>
     </div>
 </main>
