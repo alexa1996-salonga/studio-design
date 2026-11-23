@@ -229,13 +229,13 @@ section.operating-hours-container {
   max-width: 1100px; 
   margin: 0 auto;    
   margin-bottom: 1rem; 
-  padding: 3rem 5rem;
+  /* padding: 3rem 5rem; */
   border-radius: 4px;
 
-  display: flex;
+  /* display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 2.5rem;
+  gap: 2.5rem; */
 }
 
 section.operating-hours-container a {

@@ -264,8 +264,20 @@ main.about-main h2, main.about-main h3, main.about-main p, main.about-main img{
   display: none;
 }
 
+div.operating-hours-image img.img-vertical {
+        display:none;
+    }
+
+section.operating-hours-container {
+    padding: 1.5rem 2.5rem; 
+}
+
 .station-card {
   margin: 1rem 1rem 2rem 1rem;
+}
+
+img.img-horizontal {
+    margin-bottom: 1.5rem;
 }
 
 /* Hamburger menu for Tablet and Mobile */
@@ -307,7 +319,6 @@ main.about-main h2, main.about-main h3, main.about-main p, main.about-main img{
         display: flex;
         justify-content: space-between;
     }
-
 
 }
 
@@ -406,6 +417,7 @@ main.about-main h2, main.about-main h3, main.about-main p, main.about-main img{
         margin: 0 auto;
         padding: 0 1rem;
     } 
+
 }
 
 
@@ -431,6 +443,23 @@ main.about-main h2, main.about-main h3, main.about-main p, main.about-main img{
     .intro-image img.img-horizontal {
         display: none;
     }
+
+    div.operating-hours-image img.img-vertical {
+        display:block;
+    }
+
+    div.operating-hours-image img.img-horizontal {
+        display: none;
+    }
+
+    section.operating-hours-container {
+    display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2.5rem;
+  padding: 3rem 5rem; 
+}
+    
 }
 
 

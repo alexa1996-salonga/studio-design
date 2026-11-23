@@ -85,11 +85,12 @@
   <div class="operating-hours-wrapper">
     <section class="operating-hours-container">
       <div class="operating-hours-image">
-        <img src="./temp/operating-hours.jpg" alt="Plus 15 Network Hours" width="3024" height="4032">
+        <img src="./temp/operating-hours.jpg" alt="Plus 15 Network Hours" width="3024" height="4032" class="img-vertical">
+        <img src="./temp/operating-hours_horizontal.jpg" alt="Plus 15 Network Hours" width="3024" height="2010" class="img-horizontal">
       </div>
 
       <div class="operating-hours-text">
-        <h2>Plus 15 Network Hours</h2>
+        <h2 class="head2-marg">Plus 15 Network Hours</h2>
         <p class="subtitle">Plan your visit through Calgary's indoor walkway</p>
         <ul>
           <li><strong>Weekdays:</strong> 6 AM – 9 PM</li>
