@@ -262,7 +262,7 @@ div.operating-hours-image img.img-vertical {
     }
 
 section.operating-hours-container {
-    padding: 1.5rem 2.5rem; 
+    padding: 1.5rem 2rem; 
 }
 
 .station-card {
@@ -289,6 +289,13 @@ img.img-horizontal {
     height: auto;
     display: block;
 }
+
+.operating-hours-wrapper {
+  width: 100%;
+  padding: 0.5rem;
+} 
+
+
 
 /* MOBILE & TABLET NAVIGATION Up to 970px */
 
@@ -426,6 +433,8 @@ img.img-horizontal {
         margin: 0 auto;
         padding: 0 1rem;
     }
+
+
 }
 
 
@@ -460,7 +469,7 @@ img.img-horizontal {
         flex-direction: row;
         align-items: center;
         gap: 2.5rem;
-        padding: 3rem 5rem;
+        padding: 2rem 3.5rem;
     }
 
     /* Desktop Dropdown */
@@ -512,5 +521,9 @@ img.img-horizontal {
     main {
         margin: 0 9rem 1.5rem;
         padding: 2rem 6rem;
+    }
+
+    section.operating-hours-container {
+        padding: 1.5rem;
     }
 }

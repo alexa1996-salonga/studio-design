@@ -24,7 +24,8 @@
   <div class="operating-hours-wrapper">
     <section class="operating-hours-container">
       <div class="operating-hours-image">
-        <img src="./temp/operating-hours.jpg" alt="Plus 15 Network Hours">
+        <img src="./temp/operating-hours.jpg" alt="Plus 15 Network Hours" class="img-vertical">
+        <img src="./temp/operating-hours_horizontal.jpg" alt="Plus 15 Network Hours" width="3024" height="2010" class="img-horizontal">
       </div>
 
       <div class="operating-hours-text">

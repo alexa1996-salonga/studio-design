@@ -221,12 +221,10 @@ div.stations-card {
   transform: translateY(0);
 }
 
-.operating-hours-wrapper {
+/* .operating-hours-wrapper {
   width: 100%;
-  padding: 2rem;
-  padding-bottom: 2rem;
-  padding-top: 1rem;
-}
+  padding: 0.5rem;
+} */
 
 section.operating-hours-container {
   background-color: #131c36;
