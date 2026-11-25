@@ -36,18 +36,25 @@ body {
   padding: 12px 0;
   display: flex;
   justify-content: center;
+
+  position: relative;
+  z-index: 9999;
 }
 
 .nav-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  gap: 5rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
 }
 
 .nav-list > li {
-  position: relative;
+    position: relative;
+    z-index: 9999;
 }
 
 .nav-list a {
@@ -94,49 +101,41 @@ img {
     height: auto;
 }
 
-
 .dropdown-content {
     display: none;
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translateX(-50%);
+    margin-top: 0.5rem;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 3px 8px rgba(0,0,0,.15);
+    z-index: 9999;
+}
 
-    background-color: #ffffff;
-    min-width: 170px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-    list-style: none;
-    padding: 5px 0;
-    margin: 0;
-
-    border-radius: 4px;
-    z-index: 1000;
+.dropdown-content.show {
+    display: block;
 }
 
 .dropdown-content li {
-    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: none;
 }
 
 .dropdown-content a {
     display: block;
-    width: 100%;
-    padding: 10px 15px;
-
+    padding: 1rem;
+    text-align: center;
     color: #0b3c4d;
-    font-size: 13px;
-    text-align: left;
-    white-space: nowrap;
+    text-decoration: none;
+    border-bottom: 1px solid #e5e5e5;
 }
 
 .dropdown-content a:hover {
-    color: #fafafa;
-    background-color: #174468;
+    background-color: #161a31;
+    color: #f7f5ee;
 }
 
-.dropdown:hover .dropdown-content,
-.dropdown:focus-within .dropdown-content {
-    display: block;
-}
 
 /*Footer*/
 .site-footer {
@@ -275,7 +274,10 @@ section.operating-hours-container {
 .station-card {
   margin: 1rem 1rem 2rem 1rem;
 }
-
+#stations-toggle {
+    color: #0b3c4d;
+    text-decoration: none;
+}
 img.img-horizontal {
     margin-bottom: 1.5rem;
 }
@@ -306,22 +308,29 @@ img.img-horizontal {
         display: block;
     }
 
-    nav ul li {
-        /* border: 2px solid red; */
-        display: block;
-        text-align: center;
-        margin: 0.5rem;
-        padding: 1rem;
-        border-bottom: 1.5px solid #11182f;
-    }
+    .nav-list > li {
+    display: block;
+    text-align: center;
+    margin: 0.5rem;
+    padding: 1rem;
+    border-bottom: 1.5px solid #11182f;
+}
 
     .logo-container {
         display: flex;
         justify-content: space-between;
     }
 
-}
+    .dropdown-content {
+        position: static;
+        transform: none;
+        min-width: 100%;
+        box-shadow: none;
+        border-radius: 0;
+        margin-top: 0.5rem;
+    }
 
+}
 
 
 
@@ -458,7 +467,18 @@ img.img-horizontal {
   align-items: center;
   gap: 2.5rem;
   padding: 3rem 5rem; 
-}
+    }
+    .dropdown-content {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    min-width: 170px;
+    z-index: 9999;
+    }
+    .dropdown:hover .dropdown-content,
+    .dropdown:focus-within .dropdown-content {
+        display: block;
+    }
     
 }
 
