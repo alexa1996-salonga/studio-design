@@ -205,12 +205,12 @@ div.footer-link-group a {
 
 .back-to-top-icon {
     display: block;
-    width: 45px;  /* Adjust this pixel size to make your icon bigger or smaller */
+    width: 45px;
     height: auto;
 }
 
 .site-footer a.back-to-top:hover {
-    transform: translateY(-4px); /* Subtle upward lift on hover */
+    transform: translateY(-4px); 
     opacity: 0.85;
 }
 
@@ -282,8 +282,12 @@ img.img-horizontal {
     margin-bottom: 1.5rem;
 }
 
-/* Hamburger menu for Tablet and Mobile */
-@media (max-width: 971px) {
+
+/* MOBILE & TABLET NAVIGATION Up to 970px */
+
+@media (max-width: 970px) {
+
+    /* Hamburger Menu */
     button.Hamburg-button {
         display: block;
         font-size: 2.5rem;
@@ -295,32 +299,33 @@ img.img-horizontal {
         color: #5bc5d5;
     }
 
-    .navbar{
+    .navbar {
         display: none;
     }
 
     .navbar.navOn {
-        display: block; 
+        display: block;
         padding: 0;
-    } 
+    }
 
     .nav-list {
         display: block;
     }
 
     .nav-list > li {
-    display: block;
-    text-align: center;
-    margin: 0.5rem;
-    padding: 1rem;
-    border-bottom: 1.5px solid #11182f;
-}
+        display: block;
+        text-align: center;
+        margin: 0.5rem;
+        padding: 1rem;
+        border-bottom: 1.5px solid #11182f;
+    }
 
     .logo-container {
         display: flex;
         justify-content: space-between;
     }
 
+    /* Dropdown Menu */
     .dropdown-content {
         position: static;
         transform: none;
@@ -329,13 +334,13 @@ img.img-horizontal {
         border-radius: 0;
         margin-top: 0.5rem;
     }
-
 }
 
 
+/* TABLET & SMALL DEVICES Up to 767px */
 
-/* Tablet and mobile */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
+
     .footer-inner {
         grid-template-columns: 1fr;
         gap: 28px;
@@ -354,14 +359,14 @@ img.img-horizontal {
     .footer-link-group a {
         font-size: 18px;
     }
-
 }
 
 
-/* USING MIN WIDTH */
+/* TABLET+ 768px and up */
+
 @media (min-width: 768px) {
 
-    main div.color-box  {
+    main div.color-box {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
@@ -373,7 +378,6 @@ img.img-horizontal {
 
     section.col-span-2 {
         display: grid;
-        /* grid-template-areas: "image text"; */
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
     }
@@ -390,32 +394,27 @@ img.img-horizontal {
         grid-area: text;
     }
 
-
     div.description-text {
-        padding: 1.5rem 0 0.5rem 0;
+        padding: 1.5rem 0 0.5rem;
         text-align: center;
     }
 
-     /* div.grid-beside {
-        border: 2px solid red;
-    } */
-
     img.float-right {
-        margin: 1.7rem 0.7rem 0.7rem 0.7rem;
+        margin: 1.7rem 0.7rem 0.7rem;
         max-width: 50%;
         float: right;
     }
 
     h3 {
-        margin: 2rem 0.5rem 0.5rem 0.5rem;
+        margin: 2rem 0.5rem 0.5rem;
     }
 
     section.intro-section {
-        padding: 2.5rem 5rem 2.5rem 5rem;
+        padding: 2.5rem 5rem;
     }
 
     .station-card {
-        margin: 1rem 0 2rem 0;
+        margin: 1rem 0 2rem;
     }
 
     .stations-grid {
@@ -425,79 +424,76 @@ img.img-horizontal {
         max-width: 1100px;
         margin: 0 auto;
         padding: 0 1rem;
-    } 
-
+    }
 }
 
 
+/* DESKTOP 971px and up */
 
-/* MEDIUM DEVICES/SMALL COMPUTERS */
 @media (min-width: 971px) {
-    main  {
-        margin: 0 3rem 1.5rem 3rem;
-    }
-    
-    section.intro-section {
-        display: flex;              
-        flex-direction: row;      
-        align-items: flex-start;
-        gap: 2.5rem; 
-        margin-top: 1rem;   
+
+    main {
+        margin: 0 3rem 1.5rem;
     }
 
-    .intro-image img.img-vertical {
+    section.intro-section {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 2.5rem;
+        margin-top: 1rem;
+    }
+
+    .intro-image img.img-vertical,
+    div.operating-hours-image img.img-vertical {
         display: block;
     }
 
-    .intro-image img.img-horizontal {
-        display: none;
-    }
-
-    div.operating-hours-image img.img-vertical {
-        display:block;
-    }
-
+    .intro-image img.img-horizontal,
     div.operating-hours-image img.img-horizontal {
         display: none;
     }
 
     section.operating-hours-container {
-    display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 2.5rem;
-  padding: 3rem 5rem; 
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 2.5rem;
+        padding: 3rem 5rem;
     }
+
+    /* Desktop Dropdown */
     .dropdown-content {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    min-width: 170px;
-    z-index: 9999;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        min-width: 170px;
+        z-index: 9999;
     }
+
     .dropdown:hover .dropdown-content,
     .dropdown:focus-within .dropdown-content {
         display: block;
     }
-    
 }
 
 
+/* LARGE DESKTOP 1100px and up*/
 
-
-
-/* LARGE SCREENS */
 @media (min-width: 1100px) {
-    main  {
-        margin: 0 6rem 1.5rem 6rem;
+
+    main {
+        margin: 0 6rem 1.5rem;
     }
-
-
 }
+
+
+/*EXTRA LARGE DESKTOP 1200px and up*/
 
 @media (min-width: 1200px) {
-    main  {
-        margin: 0 9rem 1.5rem 9rem;
+
+    main {
+        margin: 0 9rem 1.5rem;
         padding: 2rem 6rem;
     }
 }
