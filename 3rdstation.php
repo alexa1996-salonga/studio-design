@@ -33,7 +33,7 @@
             </section>
             <section class="col-span-2">
 
-                    <img src="images/Petepig.jpg" alt="Photograph of a sculpted pig with dark spots in a glass display" width="900" height="900">
+                    <img src="images/Petepig.webp" alt="Photograph of a sculpted pig with dark spots in a glass display" width="900" height="900">
 
                 <div class="description-text">
                     <h3>Pete Pig</h3>
