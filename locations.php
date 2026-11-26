@@ -72,7 +72,7 @@
         <!-- Card 2 -->
         <div class="station-card">
         <div class="image-wrapper">
-             <img src="./temp/3rd-station-spirit-of-land.jpeg" alt="3rd SW Skywalk Bridge" width="4032" height="3024">
+             <img src="./temp/3rd-station-spirit-of-land.jpg" alt="3rd SW Skywalk Bridge" width="4032" height="3024">
         </div>
         <a href="3rdstation.php" class="a_button_style">3rd SW</a>
         </div>
