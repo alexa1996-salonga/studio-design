@@ -4,7 +4,7 @@
 <main>
       <!-- Your existing map image (add class="map-clickable") -->
     <img 
-        src="./images/SkyScrape-Maps/Maps_SkyScrape.png" 
+        src="./images/SkyScrape-Maps/Maps_SkyScrape.webp" 
         alt="Calgary +15 Treasure Hunt Network Map" 
         class="map-clickable"
         id="skywalk-map"
@@ -24,8 +24,8 @@
   <div class="operating-hours-wrapper">
     <section class="operating-hours-container">
       <div class="operating-hours-image">
-        <img src="./temp/operating-hours.jpg" alt="Plus 15 Network Hours" class="img-vertical">
-        <img src="./temp/operating-hours_horizontal.jpg" alt="Plus 15 Network Hours" width="3024" height="2010" class="img-horizontal">
+        <img src="./temp/operating-hours.webp" alt="Plus 15 Network Hours" class="img-vertical">
+        <img src="./temp/operating-hours_horizontal.webp" alt="Plus 15 Network Hours" width="3024" height="2010" class="img-horizontal">
       </div>
 
       <div class="operating-hours-text">
@@ -47,7 +47,7 @@
         <h3>Free fare Zone</h3>
 
         <div>
-          <img src="./images/train-station-freefare.jpeg" alt="Approaching Train in the train station" width="1376" height="768">
+          <img src="./images/train-station-freefare.webp" alt="Approaching Train in the train station" width="1376" height="768">
         </div>
 
         <div>
@@ -64,7 +64,7 @@
         <!-- Card 1 -->
         <div class="station-card">
         <div class="image-wrapper">
-           <img src="./temp/8th-station-fountain.jpg" alt="8th SW Skywalk Bridge" width="4032" height="3024">
+           <img src="./temp/8th-station-fountain.webp" alt="8th SW Skywalk Bridge" width="4032" height="3024">
         </div>
         <a href="stations.php" class="a_button_style">8th SW</a>
         </div>
@@ -72,7 +72,7 @@
         <!-- Card 2 -->
         <div class="station-card">
         <div class="image-wrapper">
-             <img src="./temp/3rd-station-spirit-of-land.jpg" alt="3rd SW Skywalk Bridge" width="4032" height="3024">
+             <img src="./temp/3rd-station-spirit-of-land.webp" alt="3rd SW Skywalk Bridge" width="4032" height="3024">
         </div>
         <a href="3rdstation.php" class="a_button_style">3rd SW</a>
         </div>
@@ -80,7 +80,7 @@
         <!-- Card 3 -->
         <div class="station-card">
         <div class="image-wrapper">
-              <img src="./temp/city-hall-Calgary-Municipal-Building.jpg" alt="City Hall Skywalk Bridge" width="900" height="900">
+              <img src="./temp/city-hall-Calgary-Municipal-Building.webp" alt="City Hall Skywalk Bridge" width="900" height="900">
         </div>
         <a href="cityhall.php" class="a_button_style">City Hall</a>
         </div>

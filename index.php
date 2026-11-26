@@ -22,9 +22,9 @@
 <main>
   <section class="intro-section">
     <div class="intro-image">
-      <img src="./temp/intro-skywalk.jpg" alt="Outside view of Calgary's +15 Skywalk bridge at Stephen Avenue" width="3024" height="4032" class="img-vertical">
+      <img src="./temp/intro-skywalk.webp" alt="Outside view of Calgary's +15 Skywalk bridge at Stephen Avenue" width="3024" height="4032" class="img-vertical">
 
-      <img src="./temp/intro-skywalk_horizontal.jpg" alt="Outside view of Calgary's +15 Skywalk bridge at Stephen Avenue" width="3024" height="2048" class="img-horizontal">
+      <img src="./temp/intro-skywalk_horizontal.webp" alt="Outside view of Calgary's +15 Skywalk bridge at Stephen Avenue" width="3024" height="2048" class="img-horizontal">
     </div>
 
     <div class="intro-text">
@@ -46,7 +46,7 @@
         <!-- Card 1 -->
         <div class="station-card">
         <div class="image-wrapper">
-           <img src="./temp/8th-station-fountain.jpg" alt="8th SW Skywalk Bridge" width="4032" height="3024">
+           <img src="./temp/8th-station-fountain.webp" alt="8th SW Skywalk Bridge" width="4032" height="3024">
         </div>
         <a href="stations.php" class="a_button_style">8th SW</a>
         </div>
@@ -54,7 +54,7 @@
         <!-- Card 2 -->
         <div class="station-card">
         <div class="image-wrapper">
-             <img src="./temp/3rd-station-spirit-of-land.jpg" alt="3rd SW Skywalk Bridge" width="4032" height="3024">
+             <img src="./temp/3rd-station-spirit-of-land.webp" alt="3rd SW Skywalk Bridge" width="4032" height="3024">
         </div>
         <a href="3rdstation.php" class="a_button_style">3rd SW</a>
         </div>
@@ -62,7 +62,7 @@
         <!-- Card 3 -->
         <div class="station-card">
         <div class="image-wrapper">
-              <img src="./temp/city-hall-Calgary-Municipal-Building.jpg" alt="City Hall Skywalk Bridge" width="900" height="900">
+              <img src="./temp/city-hall-Calgary-Municipal-Building.webp" alt="City Hall Skywalk Bridge" width="900" height="900">
         </div>
         <a href="cityhall.php" class="a_button_style">City Hall</a>
         </div>
