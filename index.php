@@ -15,7 +15,9 @@
 
 <!--Photo and Intro-->
 <div class="video-header">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/f8j6P2RVt7M?cc_load_policy=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <video controls poster="./images/Explainer_thumbnail.webp">
+        <source src="./video/Explainer_video.mp4" type="video/mp4">
+    </video>
 </div>
 
 
